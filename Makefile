@@ -1,5 +1,5 @@
 TWEAK_NAME = LastApp
-APP_ID = jp.ashikase.lastapp
+APP_ID = com.nsexceptional.lastapp
 
 LastApp_OBJCC_FILES = Tweak.xm
 LastApp_CFLAGS = -I$(THEOS_PROJECT_DIR)/Libraries/Common -F$(SYSROOT)/System/Library/CoreServices -DAPP_ID=\"$(APP_ID)\"

@@ -1,14 +1,15 @@
-Package: jp.ashikase.lastapp
+Package: com.nsexceptional.lastapp
 Name: LastApp
-Version: 1:1.4.0
+Version: 1:1.5.0
 Architecture: iphoneos-arm
-Description: Quickly switch to previous application.
-Homepage: http://github.com/ashikase/LastApp
+Description: Quickly switch to the previous application.
+Homepage: http://github.com/NSExceptional/LastApp
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lastappData
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Lance Fetters (ashikase) <support@ashikase.com>
 Section: System
-Depends: firmware (>=3.0), mobilesubstrate, libactivator (>=1.1.0), preferenceloader
+Depends: firmware (>=3.0), mobilesubstrate, libactivator (>=1.1.0)
+Conflicts: jp.ashikase.lastapp
 Recommends: backgrounder
 dev: ashikase
 Sponsor: thebigboss.org <http://thebigboss.org>
