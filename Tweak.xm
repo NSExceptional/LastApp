@@ -6,10 +6,11 @@
  * Author: Lance Fetters (aka. ashikase)
  * License: New BSD (See LICENSE file for details)
  *
- * Last-modified: 2014-08-20 14:21:35
+ * Last-modified: 2019-07-10
  */
 
 #import <libactivator/libactivator.h>
+#import <Foundation/Foundation.h>
 
 #include "firmware.h"
 #include "Headers.h"
